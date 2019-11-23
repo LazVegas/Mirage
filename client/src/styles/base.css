@@ -1,0 +1,71 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+/* ---------- Login.js ---------- */
+
+.formContainer {
+  width: 300px;
+  height: 600px;
+  margin: 0 auto;
+  background-color: #eee;
+}
+
+#loginForm {
+  display: flex;
+  flex-direction: column;
+}
+
+#userNameInput {
+  width: 90%;
+  height: 30px;
+  font-size: 14px;
+  margin: 0 auto;
+  padding-left: 10px;
+  margin-top: 5px;
+}
+
+#passwordInput {
+  width: 90%;
+  height: 30px;
+  font-size: 14px;
+  margin: 0 auto;
+  padding-left: 10px;
+  margin-top: 5px;
+}
+
+#loginSubmit {
+  width: 90%;
+  height: 30px;
+  font-size: 14px;
+  margin: 0 auto;
+  padding-left: 10px;
+  margin-top: 5px;
+}
+
+#chat {
+  display: flex;
+}
+
+#users {
+  border-right: 2px solid black;
+}
