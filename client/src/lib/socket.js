@@ -1,6 +1,6 @@
 import io from "socket.io-client"
 
-const socket = io("http://10.68.0.133:8080", {
+const socket = io("http://192.168.1.115:8080", {
     transports: ["websocket"]
 })
 
