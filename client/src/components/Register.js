@@ -18,12 +18,15 @@ export default props => {
 
     return (
         <div className="formContainer">
-            <Link to="/login">Login</Link>
             <form id="loginForm" onSubmit={handleSubmit}>
                 <input placeholder="Username" id="userNameInput" type="text" name="username" value={username} onChange={e => setUsername(e.target.value)} />
                 <input placeholder="Password" id="passwordInput" type="password" name="password" value={password} onChange={e => setPassword(e.target.value)} />
-                <button id="loginSubmit" type="submit">Register</button>
+                <button id="loginSubmit" type="submit">Sign Up / Register</button>
             </form>
+            <div id="or">OR</div>
+            <div id="loginLink">
+                <Link to="/login">Login</Link>              
+            </div>
         </div>
     )
 }

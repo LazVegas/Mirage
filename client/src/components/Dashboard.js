@@ -13,17 +13,15 @@ export default props => {
     }
 
     return (
-        <div>
-            <h1>Hello {username}!</h1>
-            <button onClick={e => signout()}>Sign Out</button>
-
-            <form onSubmit={handleSubmit}>
-                <input
-                    type="text"
-                    value={message}
-                    onChange={e => setMessage(e.target.value)}
-                />
-                <button type="submit">Submit</button>
+        <div id="dashboardContainer">
+            <div id="dashboardTopbar">
+                <h1>Hello {username}!</h1>
+                <button id="signOutBtn" onClick={e => signout()}>Sign Out</button>               
+            </div>
+            <form id="submitContainer" onSubmit={handleSubmit}>
+                <h4 id="sendMessage">Send a message...</h4>
+                <input id="inputMessage" type="text" value={message} onChange={e => setMessage(e.target.value)} />
+                <button id="submitBtn" type="submit">Submit</button>
             </form>
             <div id="chat">
                 <div id="users">

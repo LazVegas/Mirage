@@ -21,13 +21,34 @@ code {
     monospace;
 }
 
-/* ---------- Login.js ---------- */
+/* ---------- Start: Login.js ---------- */
 
 .formContainer {
   width: 300px;
   height: 600px;
   margin: 0 auto;
   background-color: #eee;
+}
+
+#registerLink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 30px;
+  font-size: 14px;
+  margin: 0 auto;
+  padding-left: 10px;
+  margin-top: 5px;
+  background-color: rgb(80,151,233);
+  color: #fff;
+  border-radius: 5px;
+}
+
+#registerLink a {
+  color: #fff;
+  font-weight: 900;
+  text-decoration: none;
 }
 
 #loginForm {
@@ -61,6 +82,103 @@ code {
   padding-left: 10px;
   margin-top: 5px;
 }
+
+/* ---------- End: Login.js ---------- */
+
+/* ---------- Start: Register.js ---------- */
+
+#loginLink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 30px;
+  font-size: 14px;
+  margin: 0 auto;
+  padding-left: 10px;
+  margin-top: 5px;
+  background-color: rgb(80,151,233);
+  color: #fff;
+  border-radius: 5px;
+}
+
+#loginLink a {
+  color: #fff;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+#or {
+  margin: 15px 5px 5px 5px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 900;
+}
+
+/* ---------- End: Login.js ---------- */
+
+/* ---------- Start: Dashboard.js ---------- */
+
+#dashboardContainer {
+  width: 300px;
+  height: 600px;
+  margin: 0 auto;
+  background-color: #eee;
+}
+
+#dashboardTopbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+
+#signOutBtn {
+  height: 30px;
+  border-radius: 10px;
+  background-color: rgb(80,151,233);
+  color: #fff;
+  font-weight: 900;
+}
+
+#submitContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5px 0px;
+  text-align: center;
+  border-bottom: 1px solid black;
+  color: orangered;
+}
+
+#sendMessage {
+  margin: 5px;
+  font-size: 30px;
+}
+
+#inputMessage {
+  width: 90%;
+  height: 30px;
+  font-size: 14px;
+}
+
+#submitBtn {
+  margin: 5px 0px 10px 0px;
+  padding: 5px;
+  font-size: 14px;
+  border-radius: 10px;
+  background-color: rgb(80,151,233);
+  color: #fff;
+  font-weight: 900;
+}
+
+#users, #messages {
+  padding: 0px 10px;
+}
+
+/* ---------- End: Dashboard.js ---------- */
+
 
 #chat {
   display: flex;
